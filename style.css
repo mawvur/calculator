@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    width: auto;
+    height: auto;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    border: #3F3F3F solid 2px;
+    align-self: center;
+    justify-self: center;
+    gap: 3px;
+    padding: 5px;
+}
+.bg {
+    width: auto;
+    height: auto;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    width: 60px;
+    height: 50px;
+    border-radius: 10px;
+
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+@media (hover: hover) {
+.number:hover {
+    background-color: #4A4A4A;
+}
+.sign:hover {
+    background-color: #E6954D;
+}
+.clear:hover {
+    background-color: #C4555E;
+}
+}
+.number:active {
+    background-color: #4A4A4A;
+}
+.sign:active {
+    background-color: #E6954D;
+}
+.clear:active {
+    background-color: #C4555E;
+}
+
+
+.sign {
+    background-color: #FFB86C;
+}
+.number {
+    background-color: #333333;
+}
+
+input {
+    grid-column: span 4;
+    border-radius: 10px;
+    border: #3F3F3F solid 1px;
+    background-color: #2A2A2A;
+    font-size: 20px;
+    text-align: right;
+}
+
+
+.clear {
+    background-color: #E06C75;
+}
+#n0 {
+    grid-column: span 2;
+    width: 123px;
+}
+
+/* @media (max-width: 1200px) {
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    border: #3F3F3F solid 2px;
+    align-self: center;
+    justify-self: center;
+    gap: 3px;
+    padding: 5px;
+}
+.bg {
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+#n0 {
+    grid-column: span 2;
+    width: 163px;
+}
+} */
+
+@media (max-width: 480px) {
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+    background-color: #1E1E1E;
+    border-radius: 10px;
+    border: #3F3F3F solid 2px;
+    align-self: center;
+    justify-self: center;
+    gap: 3px;
+    padding: 5px;
+}
+.bg {
+    box-sizing: border-box;
+    width: 350px;
+    height: 350px;
+    display: grid;
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    width: 80px;
+    height: 60px;
+    border-radius: 10px;
+
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+#n0 {
+    grid-column: span 2;
+    width: 164px;
+}
+}
