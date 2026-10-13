@@ -1,14 +1,16 @@
 const button = document.querySelectorAll('.number');
+const input = document.querySelector('input');
+
 
 button.forEach((button) => {
     button.addEventListener('click', function() {
-    console.log(button.innerText)
+        input.value = button.innerText;
+
+    // console.log(button.innerText)
 }) 
 })
 
 
-
-// const input = document.querySelector('input');
 
 
 // const one = document.getElementById('n1'); // нужно отследить нажатие и вывести его на экран и в консоль
