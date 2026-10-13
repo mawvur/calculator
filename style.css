@@ -58,6 +58,9 @@ button {
     .sign:hover {
         background-color: #58465E;
     }
+    .delete:hover {
+        background-color: #58465E;
+    }
     .clear:hover {
         background-color: #B56D6D;
     }
@@ -75,6 +78,9 @@ animation: click 1s linear;
 .sign:active {
     background-color: #58465E;
 }
+.delete:active {
+    background-color: #58465E;
+}
 #is:active {
     background-color: #78918B;
 }
@@ -85,6 +91,9 @@ animation: click 1s linear;
 
 
 .sign {
+    background-color: #6D5A73;
+}
+.delete {
     background-color: #6D5A73;
 }
 .number {
@@ -166,6 +175,9 @@ animation: click 1s linear;
     background-color: #C4BAB4;
 }
 .sign:active {
+    background-color: #58465E;
+}
+.delete:active {
     background-color: #58465E;
 }
 #is:active {
